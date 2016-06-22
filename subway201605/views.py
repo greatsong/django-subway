@@ -3,6 +3,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 import csv
+import matplotlib
 import matplotlib.pyplot as plt
 import numpy as np
 from matplotlib.backends.backend_agg import FigureCanvasAgg as FigureCanvas
