@@ -18,4 +18,7 @@ from django.contrib import admin
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^total.png$', 'subway201605.views.simple'),
+    url(r'^$', 'subway201605.views.compare_form', name='compare_form'),
+    url(r'^compare/$', 'subway201605.views.compare', name='compare'),
 ]
